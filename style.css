@@ -336,10 +336,6 @@ ul li  a{
         left: 50%;
     }
 
-    .bigHak {
-        display: none;
-    }
-
     .firstSection {
         display: flex;
         flex-direction: column;
@@ -436,6 +432,15 @@ ul li  a{
     .fifthSection {
         flex-direction: column-reverse;
     }
+        .bigHak {
+            margin-top: 30px;
+            margin-left: 50px;
+        }
+    
+        .bigİş {
+            margin-left: 50px;
+            margin-bottom: 30px;
+        }
 }
 @media screen and (max-width: 900px) {
     .sliderBottom {
@@ -454,6 +459,7 @@ ul li  a{
         .footer-social .row {
             justify-content: center;
         }
+        
         
 }
 @media screen and (max-width: 768px) {
@@ -485,4 +491,5 @@ ul li  a{
        .footer-txt {
         margin: auto;
        }
+          
 }
