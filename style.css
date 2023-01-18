@@ -251,6 +251,7 @@ footer {
     width: 350px;
     text-align: right;
     margin-top: 20px;
+    
 }
 .footer button {
     width: 371px;
@@ -292,12 +293,12 @@ ul li  a{
 }
 .navbar-collapse li:hover a{
     color: #000000;
-    transition-duration: 0.2s;
+    font-weight: 700;
 }
  
 .navbar-collapse li a:focus {
     color: #000000;
-    transition-duration: 0.2s;
+    font-weight: 600;
 } 
 
 .ft-top {
@@ -373,7 +374,7 @@ ul li  a{
 
 /*HİZMETLERİMİZ*/
 
-.hizmet-title img {
+.land-title img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -416,9 +417,62 @@ ul li  a{
 }
 .services {
     margin-top: 180px;
+    margin-bottom: 200px;
 }
 .services .row .col-12{
     margin-top: 50px;
+}
+.box-text p {
+    font-size: 18px;
+}
+/*PROJELERİMİZ*/
+.pr-card  {
+    background: #333333;
+    color: white;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+.pr-container {
+    margin-bottom: 200px;
+}
+
+.pr-line {
+    max-width: 350px;
+    height: auto;
+    width: 100%;
+    background-color: white;
+    height: 1px;
+    margin: 25px auto;
+}
+.proje-title {
+    padding-bottom: 150px;
+}
+
+.rp-img img {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 20px;
+    padding-right: 20px;
+}
+.pr-txt {
+    padding-top: 30px;
+}
+.pr-txt .pr-btm {
+    padding: 0 25px; 
+}
+
+.pr-txt p {
+    font-size: 18px;
+    padding-top: 25px;
+}
+.pr-txt h2 {
+    font-weight: 700;
+}
+.ok-işareti a {
+    color: white;
+    font-size: 25px;
 }
 /* Mobile  ~ Responsive*/
 @media only screen and (max-width: 1200px) {
@@ -441,9 +495,6 @@ ul li  a{
                     margin-right: 0px;
                 }
         
-        .hizmet-title img {
-               
-        }
                 
 }
 @media only screen and (max-width: 991px) {
@@ -597,8 +648,16 @@ ul li  a{
         .services {
             margin-top: 80px;
         }
-        
-        
+        .rp-img img {
+            margin: 0;
+            padding: 0; 
+        }
+        .pr-card  {
+            margin-bottom: 50px;
+        }
+        .pr-txt .pr-btm {
+            padding: 10px 25px;
+        }
         
 }
 @media screen and (min-width: 900px) {
@@ -640,6 +699,14 @@ ul li  a{
         .about-sec {
             margin-top: 100px;
             position: relative;
+        }
+        .pr-txt p {
+            font-size: 16px;
+        }
+
+        .pr-txt h2 {
+            font-weight: 700;
+            font-size: 20px;
         }
 }         
 @media screen and (max-width: 600px) {
