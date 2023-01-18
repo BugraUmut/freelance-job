@@ -68,10 +68,11 @@
 .nokImg{
     height: 300px;
 }
+
 .sliderFirst{
     display: flex;
     align-items: center;
-    margin-top: 90px;
+    margin-top: 76px;
 }
 .sliderBottom{
     border: 2px solid #000000;
@@ -131,7 +132,6 @@ margin-left: 10px;
 .secondSectionDivs{
     display: flex;
     align-items: center;
-    
 }
 .cardText{
     text-align: justify;
@@ -227,14 +227,9 @@ ul li {
 }
 footer {
    display: flex;
-   justify-content: center;
-    align-items: center;
     margin-top: 150px;
 }
-.footer-form form {
-   display: block;
-   margin-left: 15px;
-}
+
 .footer input {
     display: block;
     background-color: #F1F1F1;
@@ -245,7 +240,6 @@ footer {
     color: #000000;
     width: 371px;
     height: 44px;
-   
 }
 .footer input::placeholder {
     color: #666666;
@@ -255,7 +249,7 @@ footer {
     width: 350px;
     text-align: right;
     margin-top: 20px;
-    
+    margin-right: 20px;
 }
 .footer button {
     width: 371px;
@@ -312,103 +306,13 @@ ul li  a{
 .fifthSectionDivs img {
     width: 100%;
 }
-@media only screen and (max-width: 1000px) {
-    .img-text h1 {
-        font-size: 40px;
-    }
-        .img-text p {
-            font-size: 16px;
-        }
+.flagSection {
+    margin-top: -10px !important;
+}.flagSection img {
+    margin-top: 30px;
+}
 
-    .img-text {
-        text-align: center;
-        left: 50%;
-    }
-    .bigHak {
-        display: none;
-    }
-        .firstSection {
-            display: flex;
-            flex-direction: column;
-        }
-        .secondSection {
-            display: flex;
-            flex-direction: column-reverse;
-        }
-        .thirdSectionDivs {
-            justify-content: center;
-            align-items: center;
-        }
-        .fifthSectionDivs img {
-            width: 100%;
-            object-fit: cover;
-            margin-bottom: 10px;
-        }
-        .fifthSection{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .sixthSection {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        } .flagSection .d-flex {
-            width: 90% !important;
-        }
-        .flagSection .parag {
-            margin-left: 10px  !important;
-            padding-top: 10px !important;
-        }
-        .flagSection .parag .title{
-            margin-left: 0;
-            font-size: 16px !important;
-        }
-        .flagSection .parag .author {
-            font-size: 14px !important;
-        }
-        .btn-see-all button {
-            font-size: 14px;
-        }
-        .footer {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-                .footer-txt {
-                    text-align: center;
-                }
-               
-               .eray-ates-mail {
-                font-size: 14px;
-               }
-               .footer-right p  {
-                font-size: 14px;
-                text-align: center;
-                margin-top: 20px;
-               }
-               .footer-tp {
-                     display: flex;
-               }
-               .solok img {
-                width: 30px;
-               }
-                .fifthSection {
-                flex-direction: column-reverse;
-                }
-                .sc-none {
-                    display: none;
-                }
-                .footer-social .row {
-                    display: flex !important;
-                    flex-direction: row;
-                    justify-content: space-between;
-                }
-               
-} 
+/* Mobile  ~ Responsive*/
 
 @media only screen and (max-width: 1100px) {
     .container nav {
@@ -416,12 +320,139 @@ ul li  a{
             padding-right: 30px;
         }
 }
+@media only screen and (max-width: 1000px) {
+    .img-text h1 {
+        font-size: 40px;
+    }
+
+    .img-text p {
+        font-size: 16px;
+        width: 250px;
+        margin-left: 50px;
+    }
+
+    .img-text {
+        text-align: center;
+        left: 50%;
+    }
+
+    .bigHak {
+        display: none;
+    }
+
+    .firstSection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .secondSection {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .thirdSectionDivs {
+        justify-content: center;
+        align-items: center;
+    }
+    .thirdSectionDivs p:nth-child(1) {
+        font-size: 10vw !important;
+    }
+    .thirdSectionDivs p:nth-child(2) {
+        font-size: 12px !important;
+    }
+
+    .fifthSectionDivs img {
+        width: 100%;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+
+    .fifthSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sixthSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flagSection .d-flex {
+        width: 90% !important;
+    }
+
+    .flagSection .parag {
+        margin-left: 10px !important;
+        padding-top: 10px !important;
+    }
+
+    .flagSection .parag .title {
+        margin-left: 0;
+        font-size: 16px !important;
+    }
+
+    .flagSection .parag .author {
+        font-size: 14px !important;
+        padding-bottom: 25px !important;
+    }
+    .flagSection img {
+        width: 300px;
+        height: 160px;     
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-txt {
+        text-align: center;
+    }
+
+    .eray-ates-mail {
+        font-size: 14px;
+    }
+
+    .footer-right p {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .footer-tp {
+        display: flex;
+    }
+
+    .solok img {
+        width: 30px;
+    }
+
+    .fifthSection {
+        flex-direction: column-reverse;
+    }
+}
 @media screen and (max-width: 900px) {
     .sliderBottom {
             display: none;
         }
         .footer-right img {
             display: none;
+        }
+        .work-sec p {
+            font-size: 14px;
+        }
+        .btn-see-all button {
+            font-size: 14px;
+            width: 200px;
+        }
+        .footer-social .row {
+            justify-content: center;
         }
         
 }
@@ -434,11 +465,24 @@ ul li  a{
         }
         #logo {
         width: 200px;
-            height: 50px;
+            height: 40px;
         }
-            .thirdSection {
-            display: flex;
-            flex-direction: column;
-            }
-            
+       
+        .sliderFirst img {
+            width: 700px;
+            height: 300px;
+            object-fit: cover;
+        }
+        .footer input {
+            width: 300px;
+        }
+        .footer button {
+            width: 300px;
+        }
+        .footer-social .row {
+            padding: 0 20px;
+        }
+       .footer-txt {
+        margin: auto;
+       }
 }

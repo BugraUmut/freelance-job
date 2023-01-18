@@ -53,11 +53,11 @@
     <!-- slider başlangıç -->
     <div class="sliderFirst">
         <div class="arkaNokta">
-           <div> <img class="nokImg"  src="./img/noktalar.png" alt="noktalar"></div>
-           <div> <img class="nokImg"  src="./img/noktalar.png" alt="noktalar"></div>
+           <div class="d-none d-lg-block" > <img class="nokImg"  src="./img/noktalar.png" alt="noktalar"></div>
+           <div class="d-none d-lg-block" > <img class="nokImg"  src="./img/noktalar.png" alt="noktalar"></div>
         </div>
-    <div class="container">
-        <div id="carouselExample" class="carousel slide">
+    <div class="container justify-content-center">
+        <div id="carouselExample" class="carousel slide ">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="img-fluid" src="./img/slyat1.png" class="d-block w-100" alt="...">
@@ -84,9 +84,8 @@
             </button>
         </div>
     </div>
-    
-</div>
-<div class="container">
+    </div>
+<div class="container d-none d-lg-block">
     <div class="sliderBottom" style="align-items: center;">
         <div class="col" id="slnavLeft">
             <button class="ArText" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -117,8 +116,8 @@
 <!-- ilk section -->
 <section id="about"></section>
 
-<section class="firstSection">
-    <div class="col-6 col-md-2 firstsectionDivs"><img class="img-fluid" id="solok" src="./img/sol oklar.png" alt="solok"></div>
+<section class="firstSection justify-content-center">
+    <div class="col-6 col-md-2 firstsectionDivs d-none d-lg-block"><img class="img-fluid" id="solok" src="./img/sol oklar.png" alt="solok"></div>
     <a class="col-2 firstsectionDivs justify-content-center" href="#">
     <div class="solok" ><img src="./img/hakok.png" alt="solok1"></div>
     <div><p id="hak1">HAKKIMIZDA</p></div>
@@ -128,10 +127,10 @@
         <div id="card1" class="card" style="width: 20rem;">
             <img src="./img/card1.png" class="card-img-top" alt="...">
             <div class="card-body m-0 mt-3 p-0 cardText">
-                   <p class="card-text ">Eray Ateş Elektrik Mühendislik olarak 2017 yılında kurulduk. Kurulduğumuz ilk günden
-                    itibaren iş birliğinde bulunduğumuz her projede hedeflerimize ulaştıran, sektörde tecrübe katan ve
-                    başarıya odaklanan bir kuruluş haline geldik. İş birliği gerçekleştirdiğimiz her projemizde iş
-                    ortaklarımıza çözümler sunan bir anlayışla projelerini hayata geçiren firmamız...</p>
+                   <p class="card-text">Eray Ateş Elektrik Mühendislik olarak 2017 yılında kurulduk. Kurulduğumuz ilk günden
+                    itibaren iş birliğinde bulunduğumuz her projede hedeflerimize ulaştıran, sektörde tecrübe katan ve başarıya odaklanan bir kuruluş haline geldik.
+                    İş birliği gerçekleş-tirdiğimiz her projemizde iş ortaklarımıza çözümler sunan bir anlayışla projelerini hayata geçiren firmamız...
+                </p>
             </div>
         </div>
     </div>
@@ -140,52 +139,51 @@
     </div>
 </section>
 <!-- second section -->
-<section class="secondSection">
+<section class="secondSection justify-content-center">
     <div class="col-3"></div>
     <div class="col-10 col-lg-3 secondSectionDivs justify-content-center">
         <div id="card1" class="card" style="width: 20rem;">
             <img src="./img/card1.png" class="card-img-top" alt="...">
             <div class="card-body m-0 mt-3 p-0 cardText">
-                <p class="card-text ">Eray Ateş Elektrik Mühendislik olarak 2017 yılında kurulduk. Kurulduğumuz ilk
-                    günden
-                    itibaren iş birliğinde bulunduğumuz her projede hedeflerimize ulaştıran, sektörde tecrübe katan ve
-                    başarıya odaklanan bir kuruluş haline geldik. İş birliği gerçekleştirdiğimiz her projemizde iş
+                <p class="card-text">Eray Ateş Elektrik Mühendislik olarak 2017 yılında kurulduk. Kurulduğumuz ilk
+                    günden itibaren iş birliğinde bulunduğumuz her projede hedeflerimize ulaştıran, sektörde tecrübe katan ve
+                    başarıya odaklanan bir kuruluş haline geldik. İş birliği gerçekleş-tirdiğimiz her projemizde iş
                     ortaklarımıza çözümler sunan bir anlayışla projelerini hayata geçiren firmamız...
                 </p>
             </div>
         </div>
     </div>
-    <a href="#"  class="col-3 secondSectionDivs justify-content-end">
+    <a href="#"  class="col-sm-3 col-md-2 col-lg-3 secondSectionDivs justify-content-end">
         <div class="solok" ><img src="./img/hakok.png" alt="solok2"></div>
         <div >
             <p id="hak1">HİZMETLERİMİZ</p>        
         </div>
     </a>
-    <div class="col-md-3 " style="text-align: end;">
+    <div class="col-md-3 d-none d-lg-block" style="text-align: end;">
         <img class="img-fluid" src="./img/solokkes.png" alt="solok3">
     </div>
 </section>
 
 <!-- third section -->
-<section class="thirdSection d-flex mt-5">
-    <div class="col-2 thirdSectionDivs "></div>
-    <div class="col-2 thirdSectionDivs">
-        <p class="mb-0" style="font-size: 12vw;">01</p>
+<section class="thirdSection d-flex mt-5 mb-5 row-col justify-content-center">
+    <div class="col thirdSectionDivs"></div>
+    <div class="col mr-10 thirdSectionDivs">
+        <p class="mb-0" style="font-size: 10vw;">01</p>
         <p style="font-size: 15px;">HİZMETİMİZ 01</p>
     </div>
-    <div class="col-2 thirdSectionDivs">
-        <p class="mb-0" style="font-size: 12vw;">02</p>
+    <div class="col mr-10 thirdSectionDivs">
+        <p class="mb-0" style="font-size: 10vw;">02</p>
         <p style="font-size: 15px;">HİZMETİMİZ 02</p>
     </div>
-    <div class="col-2 thirdSectionDivs">
-        <p class="mb-0" style="font-size: 12vw;">03</p>
+    <div class="col mr-10 thirdSectionDivs">
+        <p class="mb-0" style="font-size: 10vw;">03</p>
         <p style="font-size: 15px;">HİZMETİMİZ 03</p>
     </div>
-    <div class="col-2 thirdSectionDivs">
-        <p class="mb-0" style="font-size: 12vw;">04</p>
+    <div class="col thirdSectionDivs">
+        <p class="mb-0" style="font-size: 10vw;">04</p>
         <p style="font-size: 15px;">HİZMETİMİZ 04</p>
     </div>
- <div class="col-2 thirdSectionDivs"></div>
+ <div class="col thirdSectionDivs"></div>
 </section>
 <!-- fourth section -->
 <section class="fourthSection d-flex">
@@ -194,11 +192,11 @@
     <div class="col fourthSectionDivs "></div>
     <div class="col fourthSectionDivs "></div>
     <div class="col fourthSectionDivs "></div>
-    <div class="col fourthSectionDivs "><img style="width: 27.5vw;" src="./img/koseli.png" alt=""></div>
+    <div class="col fourthSectionDivs d-none d-lg-block"><img style="width: 27.5vw;" src="./img/koseli.png" alt=""></div>
 </section>
 
 <!-- fifth section -->
-<section class="fifthSection d-flex">
+<section class="fifthSection d-flex justify-content-center">
     <div class="col-10 col-md-4 col-lg-2 fifthSectionDivs ">
         <p class="fifthSecP" >RESIDANCE PROJE 5</p>
         <img class="img-fluid" src="./img/proje5.png" alt="">
@@ -227,26 +225,29 @@
 <div class="parag" style="margin-left: 40px;">
 <p style="color: white;text-align: end; margin: 0px; font-size: 3vw; line-height:1vw;padding: 10px;">❝</p>
 <p class="title"style="color: white;text-align: end; font-size: 1.3vw; padding: 10px; margin-bottom: 0px;"> We believe that architecture and design matter, and that through the application of our skills, passion, talent, and hard work we can make a difference. </p>
-<p class="author"  style="color: white;text-align: end; margin: 0px; font-size: 1vw;padding: 10px; ">James Caleo, Deep Sea Housing</p>
+<p class="author"  style="color: #DADADA;text-align: end; margin: 0px; font-size: 1vw;padding: 10px; ">James Caleo, <label style="color: white;">Deep Sea Housing </label></p>
 </div>
 </div>
 </section>
 
 <section id="jobs"></section>
 <!-- sixth section -->
-<section class="sixthSection">
-    <div class="col-6 col-md-2 firstsectionDivs"><img class="img-fluid" id="solok" src="./img/sol oklar.png" alt="solok"></div>
+<section class="sixthSection justify-content-center">
+    <div class="col-6 col-md-2 firstsectionDivs d-none d-lg-block"><img class="img-fluid" id="solok" src="./img/sol oklar.png" alt="solok"></div>
     <a href="#" class="col-2 firstsectionDivs justify-content-center">
-        <div class="solok" ><img  src="./img/hakok.png" alt="solok1"></div>
+        <div class="solok" ><img src="./img/hakok.png" alt="solok1"></div>
     <div><p id="hak1">İŞLERİMİZ</p></div>
     </a>
-      <div class="col-10 col-md-4 firstsectionDivs justify-content-center">
+      <div class="col-8 col-md-4 firstsectionDivs justify-content-center">
          <div class="card-body m-0 mt-3 p-0 mb-5 cardText">
-                   <p class="card-text pe-5">We have been lucky enough to have worked with various design agencies across the world. Love and appreciation from the clients is what we live for.</p>
+                   <p class="card-text pe-5">We have been lucky enough to have worked with 
+                    various design agencies 
+                    across the world. Love 
+                    and appreciation from the clients is what we live for.</p>
             </div>
         </div>
     </div>
-    <div class="col-4 bigHak">
+    <div class="col-4 bigHak ">
         <img class="img-fluid" id="bigHak" src="./img/İŞLERİMİZ.png" alt="işlerimiz">
     </div>
 </section>
@@ -256,29 +257,29 @@
     <div style="align-items: flex-end;" class="row">
     <div class="col-4 p-0">
         <img class="img-fluid mb-3 p-0" src="./img/işimiz1.png" alt="">
-        <p style="text-align: center;">İŞİMİZ 03</p>
+        <p style="text-align: center; font-weight: bold;">İŞİMİZ 03</p>
     </div>
     <div class="col-4 p-0">
         <img class="img-fluid mb-3 p-0" src="./img/işimiz2.png" alt="">
-        <p style="text-align: center;">İŞİMİZ 02</p>
+        <p style="text-align: center; font-weight: bold;">İŞİMİZ 02</p>
     </div>
     <div class="col-4 p-0">
         <img class="img-fluid mb-3 p-0" src="./img/işimiz3.png" alt="">
-        <p style="text-align: center;">İŞİMİZ 01</p>
+        <p style="text-align: center; font-weight: bold;">İŞİMİZ 01</p>
     </div>
 </div>
 <div style="align-items: flex-end;"class="row mt-5">
     <div class="col-4 p-0">
         <img class="img-fluid mb-3 p-0" src="./img/işimiz6.png" alt="">
-        <p style="text-align: center;">İŞİMİZ 06</p>
+        <p style="text-align: center; font-weight: bold;">İŞİMİZ 06</p>
     </div>
     <div class="col-4 p-0">
         <img class="img-fluid mb-3 p-0" src="./img/işimiz5.png" alt="">
-        <p style="text-align: center;">İŞİMİZ 05</p>
+        <p style="text-align: center; font-weight: bold;">İŞİMİZ 05</p>
     </div>
     <div class="col-4 p-0">
         <img class="img-fluid mb-3 p-0" src="./img/işimiz4.png" alt="">
-        <p style="text-align: center;">İŞİMİZ 04</p>
+        <p style="text-align: center; font-weight: bold;">İŞİMİZ 04</p>
     </div>
 </div>
 </section>
@@ -288,7 +289,7 @@
 
 <section id="contact" ></section>
 <!-- Footer Start-->
-<footer id="" class="footer">
+<footer id="" class="footer justify-content-center">
     <div class="footer-txt">
         <p style="font-weight: 620; font-size: 18px; letter-spacing: 10%; line-height: 150%;" >
             MARKAMIZDAN HABERDAR OLMAK İÇİN BİZE ULAŞIN
@@ -306,9 +307,9 @@
 
 <hr style="margin: 50px 0" />
 
-<div class="footer-social container">
+<div class="footer-social container justify-content-center">
      <div class="row">
-        <div class="col-2 sc-none">
+        <div class="col-2 d-none d-lg-block">
             <ul>
                 <li><a href="">Twitter</a></li>
                 <li><a href="">Facebook</a></li>
@@ -316,7 +317,7 @@
                 <li><a href="">Linkedin</a></li>
             </ul>
         </div>
-        <div class="col-2 sc-none">
+        <div class="col-2 d-none d-lg-block">
             <ul>
                 <li><a href="">About</a></li>
                 <li><a href="">Contact</a></li>
@@ -335,8 +336,8 @@
                 <a href="#"><i class="fab fa-linkedin-in"></i></a>
             </div>
         </div>
-        <div class="col-10 col-md-6 col-lg-4 footer-btm ">
-            <img src="./img/logo.png" alt="">
+        <div class="col col-md-6 col-lg-4 footer-btm">
+            <img id="logo" src="./img/logo.png" alt="">
             <p style="color:#777777; margin-top: 10px;">© 2022 DreamStudio. All rights reserved.</p>
         </div>
      </div>
