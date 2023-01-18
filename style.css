@@ -5,6 +5,7 @@
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
 }
+
 .wrapper{
     display: flex;
     position: absolute;
@@ -22,6 +23,7 @@
     background-color: white;
     padding-left: 100px;
     padding-right: 100px;
+    padding-bottom: 20px;
 }
 .navbar-collapse{
     color: #656565;
@@ -312,12 +314,86 @@ ul li  a{
     margin-top: 30px;
 }
 
-/* Mobile  ~ Responsive*/
+/* Hakkimizda */
+.land-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.land-main img {
+    width: 100%;
+    max-width: 1300px;
+    height: auto;
+    padding-top: 100px;
+    max-height: 450px;
+    justify-content: center;
+}
 
+.land-main .row-btm {
+   margin-top: 20px;
+}
+.row-btm .footer-social-icons .fab {
+    padding-right: 10px;
+}
+.row-btm .footer-social-icons {
+    margin-top: 10px;
+}
+.about-desc {
+    text-align: right;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.about-sec {
+    margin-top: 200px;
+    position: relative;
+}
+.about-sec .about-txt-img {
+    position: relative;
+}
+/* put space bottom */
+.about-sec .col{
+    margin-bottom: 200px
+}
+/* align img left */
+.about-txt-img img{
+    position: absolute;
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+}
+.about-flag img {
+    position: absolute;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+
+}
+.row-btm h2 {
+    font-weight: 700;
+}
+
+
+/* Mobile  ~ Responsive*/
+@media only screen and (max-width: 1200px) {
+    .about-desc {
+            font-size: 16px;
+            text-align: left;
+        }
+                .about-flag img {
+                    padding-right: 100px;
+                }
+}
 @media only screen and (max-width: 1100px) {
     .container nav {
             padding-left: 20px;
             padding-right: 30px;
+        }
+                
+}
+@media only screen and (max-width: 991px) {
+    .about-desc {
+            margin-top: 400px;
         }
 }
 @media only screen and (max-width: 1000px) {
@@ -441,6 +517,10 @@ ul li  a{
             margin-left: 50px;
             margin-bottom: 30px;
         }
+        .about-desc {
+            margin-top: 420px;
+        }
+    
 }
 @media screen and (max-width: 900px) {
     .sliderBottom {
@@ -488,8 +568,19 @@ ul li  a{
         .footer-social .row {
             padding: 0 20px;
         }
-       .footer-txt {
-        margin: auto;
-       }
-          
+        .row-btm .footer-social-icons .fab {
+            padding:0;
+        }
+        .about-sec {
+            margin-top: 100px;
+            position: relative;
+        }
 }
+         
+@media screen and (max-width: 600px) {
+    .about-desc {
+            margin-top: 320px;
+            padding-left: 0 20px;
+        }
+}
+
