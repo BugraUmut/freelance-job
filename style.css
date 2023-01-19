@@ -474,6 +474,34 @@ ul li  a{
     color: white;
     font-size: 25px;
 }
+
+/*PROJE DETAYI*/
+.pr-card-detail {
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+
+.pr-card-detail .card {
+    background: #333333;
+    margin-bottom: 50px;
+    margin-top: 60px;
+    width: 35rem;
+    margin: 0 auto;
+}
+.pr-card-detail .row .col{
+  margin: 0 auto;  
+}
+.pr-card-detail .card-body {
+    padding: 25px;
+}
+.pr-card-detail .card-text {
+    padding: 20px 80px 20px 0px;
+}
+.info-title h2{
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
 /* Mobile  ~ Responsive*/
 @media only screen and (max-width: 1200px) {
     .about-desc {
@@ -482,6 +510,9 @@ ul li  a{
         }
                 .about-flag img {
                     padding-right: 100px;
+                }
+                .pr-card-detail .card {
+                    width: 25rem;
                 }
 }
 @media only screen and (max-width: 1100px) {
@@ -626,7 +657,9 @@ ul li  a{
         .about-desc {
             margin-top: 420px;
         }
-    
+        .pr-card-detail .card {
+            width: 24rem;
+        }
 }
 @media screen and (max-width: 900px) {
     .sliderBottom {
@@ -657,6 +690,12 @@ ul li  a{
         }
         .pr-txt .pr-btm {
             padding: 10px 25px;
+        }
+        .pr-card-detail .card {
+            width: 28rem;
+        }
+        .pr-card-detail .card-text {
+            padding: 20px 20px 20px 0px;
         }
         
 }
@@ -708,11 +747,33 @@ ul li  a{
             font-weight: 700;
             font-size: 20px;
         }
-}         
+        .pr-card-detail .card {
+            width: 22rem;
+            margin: 0 auto;
+        }
+        .pr-info .row h5 {
+            font-size: 18px;
+        }
+        .pr-info .row p {
+            font-size: 14px;
+        }
+                
+}    
+@media screen and (min-width: 768px ) and (max-width: 900px) {
+    .pr-card-detail .card {
+        width: 25rem;
+        margin: 0 auto;
+    }
+
+}
 @media screen and (max-width: 600px) {
     .about-desc {
             margin-top: 320px;
             padding-left: 0 20px;
         }
+                .pr-card-detail .card {
+                    width: 23rem;
+                    margin: 0 auto;
+                }
 }
 
