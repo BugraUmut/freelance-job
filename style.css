@@ -6,7 +6,6 @@
     scroll-behavior: smooth;
     font-family: Roboto;
 }
-
 .wrapper{
     display: flex;
     position: absolute;
@@ -37,6 +36,7 @@
 #logo{
     width: 250px;
     height: 50px;
+    object-fit: cover;
 }
 .whatsappBtn{
     background-color: #000000;
@@ -350,11 +350,9 @@ ul li  a{
 .about-sec .about-txt-img {
     position: relative;
 }
-/* put space bottom */
 .about-sec .col{
     margin-bottom: 200px
 }
-/* align img left */
 .about-txt-img img{
     position: absolute;
     width: 100%;
@@ -501,6 +499,123 @@ ul li  a{
     font-weight: 700;
     font-size: 22px;
     margin-bottom: 50px;
+}
+/*İLETİŞİM*/
+.iletisim-title img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 920px;
+    height: auto;
+    margin-top: 100px;
+    padding: 20px;
+}
+.iletisim-tel img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 440px;
+    height: auto;
+    margin-top: -200px;
+}
+.iletişim-main {
+    margin-top: 100px;
+}
+.contact-main {
+    margin: 100px auto;
+    padding: 10px 20px;
+}
+.contact-main hr {
+    border: none;
+    border-left: 2px solid black;
+    height: 100px;
+    width: 1px;
+}
+.contact-main .fas, .fab {
+    font-size: 30px;
+    padding-right: 10px;
+}
+.contact-main .col-btm {
+    margin-top: 10px;
+}
+.form-section {
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.map img {
+    width: 100%;
+    max-width: 1900px;
+    height: auto;
+    margin-top: 80px;
+    object-fit: cover;
+}
+.contact-main h2 {
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+/*center form*/
+.iletisim-form {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+    padding: 0 20px;
+}
+.iletisim-form h5 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.iletisim-form .label {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.iletisim-form .textarea {
+    margin-top: 30px;
+}
+.form-section .oklar img{
+    margin-top: 50px;
+}
+.form-section .input {
+    margin-right: 20px;
+}
+.form-section input {
+    width: 100%;
+    max-width: 400px;
+    height: 35px;
+    padding:  15px 5px;
+    border: none;
+    background-color: #F1F1F1;
+    outline: none;
+    color: black;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.form-section textarea {
+    width: 100%;
+    max-width: 410px;
+    height: 100px;
+    padding:  10px;
+    border: none;
+    background-color: #F1F1F1;
+    outline: none;
+    color: black;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.form-section button {
+    width: 100%;
+    max-width: 100px;
+    height: 38px;
+    padding: 5px;
+    border: none;
+    background-color: #0E0E0E;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 20px;
 }
 /* Mobile  ~ Responsive*/
 @media only screen and (max-width: 1200px) {
@@ -757,7 +872,27 @@ ul li  a{
         .pr-info .row p {
             font-size: 14px;
         }
-                
+        .iletisim-tel img {
+            max-width: 300px;
+            margin-top: -150px;
+        }
+        /*center form*/
+        .contact-main .row {
+            margin: 0 auto;
+
+        }
+        .contact-main h2{
+            margin-bottom: 20px;
+        }
+        .contact-main .fas,
+        .fab {
+            font-size: 25px;
+        }
+        .form-section {
+            margin-bottom: 0;
+            padding: 0;
+        }
+
 }    
 @media screen and (min-width: 768px ) and (max-width: 900px) {
     .pr-card-detail .card {
@@ -775,5 +910,8 @@ ul li  a{
                     width: 23rem;
                     margin: 0 auto;
                 }
+                                .contact-main {
+                                    margin: 70px auto;
+                                }
 }
 
